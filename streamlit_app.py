@@ -201,7 +201,7 @@ if not st.session_state.messages:
     col1, col2 = st.columns([3, 1])
     
     with col1:
-        current_prompt = st.text_area("Current complaint:", st.session_state.current_prompt, height=150)
+        current_prompt = st.text_area("★☆☆☆☆", st.session_state.current_prompt, height=150)
         st.session_state.current_prompt = current_prompt
         
     with col2:

@@ -11,9 +11,11 @@ col1.image("./static/SeyAI.png", width=100)
 # Show title and description
 st.title("💬 Talk to a dissatisfied tourist")
 st.write(
-    "This is a chatbot that simulates a conversation with a dissatisfied tourist who stayed at the Westin Dragonara Resort Malta. "
-    "Practice responding to negative feedback and turning around difficult customer service situations."
+    "This is a chatbot that simulates a conversation with a dissatisfied tourist 😡 who stayed at the **Westin Dragonara Resort Malta**. Practice responding to negative feedback and turning around difficult customer service situations."
 )
+
+# line
+st.markdown("---")
 
 system_prompt = """ 
 You are now embodying the character of a **dissatisfied tourist** who recently stayed at the Westin Dragonara Resort Malta. You must respond **in the first person** as a genuinely unhappy guest. Never break character or acknowledge that you are an AI.

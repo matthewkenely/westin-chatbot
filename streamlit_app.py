@@ -153,7 +153,7 @@ if not st.session_state.authenticated:
     password = st.text_input("Enter password to access the application:", type="password")
     
     # You can set your desired password here
-    correct_password = "westin2025"
+    correct_password = st.secrets["PASSWORD"]
     
     if password:
         if password == correct_password:
